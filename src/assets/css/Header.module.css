@@ -1,0 +1,21 @@
+.header {
+    background : linear-gradient(to top, transparent 10%, #0b0b0b 100%);
+    z-index : 100;
+    position: fixed;
+    width : 100%;
+}
+
+.header_wrap {
+    margin : 0px 20px;
+}
+
+.header_link {
+    text-decoration: none;
+}
+
+.title {
+    padding : 20px 0px;
+    font-size : 36px;
+    color : #fff;
+    font-family: 'BagelFatOne-Regular';
+}

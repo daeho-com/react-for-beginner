@@ -1,0 +1,107 @@
+@font-face {
+    font-family: '양진체';
+    src: url('https://fastly.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #0b0b0b;
+    color : #fff;
+}
+
+/* Header 관련 CSS */
+
+/* Loading 화면 CSS */
+
+/* Home 관련 CSS */
+
+#section1 { /* Home 페이지에서 맨 위 화면 */
+    width : 100%;
+    margin-bottom : 50px;
+}
+
+#section2 {
+    width : 100%; 
+}
+
+/* 슬라이드 관련 CSS */
+
+.slider-container {
+    position: relative;
+}
+
+.carousel-item::before {
+    position : absolute;
+    top : 0;
+    left : 0;
+    content : "";
+    width : 100%;
+    height : 100%;
+    background: linear-gradient(to bottom, transparent 30%, #0b0b0b 90%);
+    
+}
+
+
+.slide-img {
+    width : 100%;
+    height : 750px;
+    object-fit : cover;
+    object-position: top center;
+}
+
+.slide-content {
+    position : absolute;
+    top : 40%;
+    left : 17%;
+    width : 37%;
+}
+
+.slide-content h2 {
+    font-size : 50px;
+    font-weight : bold;
+}
+
+.slide-content p {
+    margin : 15px 0 40px 0px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp : 2;
+}
+
+.slide-content .detailBtn {
+    padding : 10px 30px;
+    color : #fff;
+    background-color: #f52e20;
+    border-radius: 10px;
+    font-size : 15px;
+    font-weight: bold;
+    box-shadow : 5px 5px 5px rgba(0,0,0,0.2);
+    cursor : pointer;
+}
+
+/* Home 관련 두 번째 section2 관련 CSS */
+
+.wrap {
+    margin : 0px 10%;
+}
+
+.sec2_mainTitle {
+    font-size : 20px;
+}
+
+.sec2_line {
+    margin : 20px 0 30px;
+    width : 100%;
+    height : 3px;
+    background: linear-gradient(to right, red, transparent 70%);
+}
+
+.sec2_movieList {
+    display : flex;
+    justify-content: space-between;
+    flex-wrap : wrap;
+    gap : 30px 20px;
+}
+

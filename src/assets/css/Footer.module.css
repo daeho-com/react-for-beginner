@@ -1,0 +1,11 @@
+.footer {
+    margin-top: 50px;
+    border-top : 2px solid red;
+}
+
+.logo {
+    padding : 20px 0;
+    font-size : 48px;
+    font-family: 'BagelFatOne-Regular';
+    color : #5c5c5c;
+}
